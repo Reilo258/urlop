@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>URLOP SAPACZY</title>
+    <style>
+        body {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 100px 33% 33%;
+        grid-template-areas: 
+            "baner baner baner"
+            "lewy srodek prawy"
+            "lewy2 srodek2 stopka";
+        }
+        * {
+            font-family: Arial;
+            text-align: center;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        img{
+            display: block;
+            width: 80%;
+            margin: auto;
+            padding-bottom: 20px; 
+        }
+    
+        
+        header, footer {
+            background-color: #4BA3C7;
+            color: white;
+            font-size: 120%;
+        }
+        
+        header {
+            grid-area: baner;
+        }
+        footer {
+            grid-area: stopka;
+        }
+        #lewy {
+            grid-area: lewy;
+            overflow: scroll;
+        }
+        #lewy2 {
+            grid-area: lewy2;
+            overflow: scroll;
+            margin-top: 400px;
+        }
+        #srodek2 {
+            grid-area: srodek2;
+            overflow: scroll;
+            margin-top: 400px;
+        }
+        #prawy {
+            grid-area: prawy;
+            overflow: scroll;
+        }
+        #srodek {
+            grid-area: srodek;
+            overflow: scroll;
+        }
+    </style>
+</head>
+<body>
+    <header><h1>Termin: 14 lipca - 20 lipca</h1></header>
+    <section id="lewy">
+        <h1>Baza Lipusz</h1>
+        <h2>Koszt: 6 000zł</h2>
+        <h2>Lokalizacja: Lipusz</h2>
+        <h2>Rekreacja: widok na ogród, taras, kort tenisowy, wędkowanie, narciarstwo</h2>
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/309835637.jpg?k=9af71e4d906b0feed53db0ad52816480635fce1557e0b1d0db9a62cfa694ff51&o=&hp=1">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/651234465.jpg?k=2b85dc6910e2b05ad038fc5e95aa70e243695ee327deb74789af2b94ed76a2a7&o=&hp=1">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/301260418.jpg?k=bb5549062e2cb114ea6ae7da776680dd9ad87be3af38c3abf5df15647c23618b&o=&hp=1">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/314046994.jpg?k=9527b4c87759345c6d4b235673fbacaac6a25212f549389f20ec9b18b3f68ede&o=&hp=1">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/298298098.jpg?k=7dc91befc5a769646b8f92f6ccf1083451e762a5488de0c4bfdaaf04f24d4fed&o=&hp=1">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/297551393.jpg?k=237cbfca212da278756f3fea7416bd55b2bb5c213ea9a16ba91ff8782106ebfb&o=&hp=1">
+    </section>
+    <section id="srodek">
+        <h1>Sosnowy Zakątek</h1>
+        <h2>Koszt: 3 900zł</h2>
+        <h2>Lokalizacja: Skoszewo</h2>
+        <h2>Rekreacja: widok na ogród, taras</h2>
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/556424406.jpg?k=d7a764eda1016bb42ac94214402258d3df54d915dc18102dd48973d7262c3e46&o=">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/382727176.jpg?k=75e3c854c570d476c1270c061dd2565face392cf338c91ee70f5508736b69709&o=&hp=1">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/556423831.jpg?k=c5270ae9250a682b1a46e844b1634dc694c052a9fb17811b9974ce2ce8c34c6b&o=&hp=1">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/556448778.jpg?k=d81723f7884e3f8547a57b4c1f8d689959a283f5cdb7261d956b8fc5baa9f7b1&o=&hp=1">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/556424400.jpg?k=f7dc148ac07d91624387da2a0eaa33f960050e630fbcb97e161e1e48d908acbf&o=&hp=1">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/556448457.jpg?k=898c1993d32f8c78bfa66f8a96168f5d981d863cefbda67c2f601c52de2902a9&o=&hp=1">
+    </section>
+    <section id="prawy">
+        <h1>Domek na Kaszubskiej</h1>
+        <h2>Koszt: 5 400zł</h2>
+        <h2>Lokalizacja: Swornegacie</h2>
+        <h2>Rekreacja: widok na ogród, taras</h2>
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/353820405.jpg?k=7c21f8643a6a7512639f23f4e8c6440bef43d3d39c8e507b776305b5d223103b&o=&hp=1">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/353820400.jpg?k=6a5132552ef8af150723b90de095dad1502efc4077e4364b158d2684530b52d9&o=&hp=1">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/353820402.jpg?k=71f72eaad87640642ae64553effe6b57768b6287dc8ad2732d135b7ab52ebbf5&o=&hp=1">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/413424651.jpg?k=bad1713bfd5a20718bbb9a3517c94060c6d3aa551909e4bcbf9bfaae7e54e4fe&o=&hp=1">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/353820388.jpg?k=bf41101936b05f4e9cab41fb421997d579fe8d0d49a4ee2c0a14e5ac55871021&o=&hp=1">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/353820390.jpg?k=33c08c574cab520a3576fc5dd8ae884dd5d850e8ee228bdf0132cd3cd3a78ba7&o=&hp=1">
+    </section>
+    <section id="lewy2">
+        <h1>Raduńska Ostoja</h1>
+        <h2>Koszt: 5 900zł</h2>
+        <h2>Lokalizacja: Dziemiany</h2>
+        <h2>Rekreacja: widok na ogród, taras</h2>
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/528794753.jpg?k=577f05c5d01cc4a0a08365b2a7a9f98abe9e556eee223e5d3ea12297e32c9a32&o=&hp=1">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/350118385.jpg?k=99ac9bc62a59edb9e31e5bbd4cbb750dfed32c08a7d7c126d54e99e266cb12bc&o=&hp=1">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/350118425.jpg?k=4c5c724fd73eafd01024fe749ce182788c6b18a7a1248a60cdb982382721a440&o=&hp=1">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/579969002.jpg?k=b6b36fd42f78bd9cc1d5d55c38b58e0c897b16cb9c958de9c65a5b9b0d2e39e7&o=&hp=1">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/350118434.jpg?k=aeb104863bfb3dd4344f3b896fdfd902716b2daf5717384e5a80dc1f631924db&o=&hp=1">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/350118427.jpg?k=33a1dc5106e098f016fd1793731ead85ca12f683f66f04d550609d6e03aab9be&o=&hp=1">
+    </section>
+    <section id="srodek2">
+        <h1>Zbychowskie Zacisze</h1>
+        <h2>Koszt: 4 500zł</h2>
+        <h2>Lokalizacja: Zbychowo</h2>
+        <h2>Rekreacja: widok na ogród, taras</h2>
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/491588713.jpg?k=b9d41b29bacf70412dcbc5fb57ebb5070430dfaa006429a73077155a1e402083&o=&hp=1">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/491596161.jpg?k=ab7db1cbb151de45744a65ef6ce38a0d1f22dbf21a3a6ba8b26166a15009295c&o=&hp=1">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/436810223.jpg?k=11d0875dba9f80aa3c63fcdd02f4a9edc15bffa09751e8da51ff4aec1de71f33&o=&hp=1">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/491596173.jpg?k=9cd01625ea26b5615f8dbc36951a3933692a961c7420852477ba70373f260667&o=&hp=1">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/491596133.jpg?k=29115fb61bdf27f47b4e87c81f8742d078f842c77761f822cee98e3a10b3ff64&o=&hp=1">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/491596144.jpg?k=4f57417cd8a643701ade44b7ce0cefc4a1c6f123d72ed9df1fb2cf8fa4a4656b&o=&hp=1">
+    </section>
+    
+</body>
+
+</html>
